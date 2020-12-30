@@ -70,7 +70,13 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 ## References
 * Code/implementation which you include/reference (__You should indicate in your presentation if you use code for others. Otherwise, cheating will result in 0 score for final project.__)
+  * https://www.kaggle.com/gpreda/red-wine-quality-simple-eda-and-prediction
 * Packages you use
+  * shiny
+  * DT
+  * data.table
+  * caret
+  * GGally
 * Related publications
 
 
