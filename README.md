@@ -46,8 +46,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
     The output feature is:  
     * `quality` - output variable (based on sensory data, score between 0 and 10);
 * Preprocessing
-  * Handle missing data: their's no missing value in this dataset
-  * Scale value: shift the label start from 3 to start from 0
+  * There is no missing value in this dataset
 
 ### code
 
