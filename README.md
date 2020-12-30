@@ -69,6 +69,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 * Which metric do you use 
   * accuracy,AUC
+  * Null model : 0.968111285
   * Random forest: 0.955577978, 0.969990204
   * xgboost: 0.992494122, 0.96622453
   * CART: 0.974367163, 0.925497649
