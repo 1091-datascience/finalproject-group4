@@ -28,7 +28,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 * Source
   * Red Wine Quality
-  * ![Red Wine Quality Kaggle](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009)
+  * [Red Wine Quality Kaggle](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009)
 * Input format
   * One .csv file.
   * Attribute Information
