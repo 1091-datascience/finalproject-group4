@@ -65,7 +65,10 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 ### results
 
 * Which metric do you use 
-  * precision, recall, R-square
+  * accuracy,AUC
+  * Random forest: 0.955577978, 0.969990204
+  * xgboost: 0.992494122, 0.96622453
+  * CART: 0.974367163, 0.925497649
 * Is your improvement significant?
 * What is the challenge part of your project?
 
