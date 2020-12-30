@@ -15,8 +15,9 @@ You should provide an example commend to reproduce your result
 Rscript code/your_script.R --input data/training --output results/performance.tsv
 ```
 
-[Red Wine Quality Prediction Shiny](https://tk211020.shinyapps.io/RedWineQualityPrediction/)
 * any on-line visualization
+[Red Wine Quality Prediction Shiny](https://tk211020.shinyapps.io/RedWineQualityPrediction/)
+
 
 ## Folder organization and its related information
 
