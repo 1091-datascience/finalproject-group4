@@ -83,6 +83,9 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   * caret
   * GGally
   * ggbiplot
+  * ggplot2
+  * dplyr
+  * tidyr
 * Related publications
 
 
