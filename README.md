@@ -45,9 +45,9 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
     * `alcohol` - the percent alcohol content of the wine;
     The output feature is:  
     * `quality` - output variable (based on sensory data, score between 0 and 10);
-* Any preprocessing?
-  * Handle missing data
-  * Scale value
+* Preprocessing
+  * Handle missing data: their's no missing value in this dataset
+  * Scale value: shift the label start from 3 to start from 0
 
 ### code
 
@@ -56,6 +56,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   * xgboost
   * CART
 * What is a null model for comparison?
+  * 各feature由資料中最小直到最大值分5個級距，按所在的級距分配分數最後所有feature分數加總取平均
 * How do your perform evaluation? ie. Cross-validation, or extra separated data
   * Cross-validation
   * accuracy
