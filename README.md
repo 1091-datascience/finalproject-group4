@@ -59,7 +59,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   * xgboost
   * CART
 * What is a null model for comparison?
-  * 各feature由資料中最小直到最大值分5個級距，按所在的級距分配分數最後所有feature分數加總取平均
+  * use liner scale to assign quality to each feature and get average
 * How do your perform evaluation? ie. Cross-validation, or extra separated data
   * Cross-validation
   * accuracy
