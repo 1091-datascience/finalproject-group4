@@ -13,9 +13,15 @@ Create a model to predict the quality of red wine
 You should provide an example commend to reproduce your result
 ```R
 Rscript code/your_script.R --input data/training --output results/performance.tsv
+Rscript final_project.R --fold 5 --train winequality-red.csv --report xgboost_performance_recall.csv --model xgboost.rds --evulate recall
 ```
+* fold: Cross validation fold
+* train: training data path
+* report: Cross validation output path
+* model: the finished training model for predict
+* evulate: evulate method, it will use accurate by default
 
-* any on-line visualization
+### any on-line visualization
 
 [Red Wine Quality Prediction Shiny](https://tk211020.shinyapps.io/RedWineQualityPrediction/)
 
@@ -74,6 +80,8 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   * xgboost: 0.992494122, 0.700042208
   * CART: 0.974367163, 0.345487005
 * Is your improvement significant?
+  * xgboost performance is both better than null model
+  * Random forest and CART only better at accuracy
 * What is the challenge part of your project?
   1. 需要嘗試多種方法以達到最佳預測結果
   2. 特徵分析時繁瑣但有其重要性
@@ -86,6 +94,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   * Gally R package: Extension to ggplot2 for correlation matrix and survival plots - R software and data visualization, http://www.sthda.com/english/wiki/ggally-r-package-extension-to-ggplot2-for-correlation-matrix-and-survival-plots-r-software-and-data-visualization
   * Shiny 入門, https://bookdown.org/tpemartin/shiny_intro/shiny-part-i.html#ui-
   * Shiny - renderPlot , https://shiny.rstudio.com/reference/shiny/1.0.4/renderPlot.html
+  * Kaggle機器學習競賽神器XGBoost介紹 https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC5-2%E8%AC%9B-kaggle%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E7%AB%B6%E8%B3%BD%E7%A5%9E%E5%99%A8xgboost%E4%BB%8B%E7%B4%B9-1c8f55cffcc
 * Packages you use
   * shiny
   * DT
