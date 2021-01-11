@@ -12,7 +12,6 @@ Create a model to predict the quality of red wine
 ### Demo 
 You should provide an example commend to reproduce your result
 ```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
 Rscript final_project.R --fold 5 --train winequality-red.csv --report xgboost_performance_recall.csv --model xgboost.rds --evulate recall
 ```
 * fold: Cross validation fold
