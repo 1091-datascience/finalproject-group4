@@ -75,9 +75,9 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   * CART: 0.974367163, 0.925497649
 * Is your improvement significant?
 * What is the challenge part of your project?
-1. 需要嘗試多種方法以達到最佳預測結果
-2. 特徵分析時繁瑣但有其重要性
-3. 此專案使用Ｒ語言撰寫是極大挑戰
+  1. 需要嘗試多種方法以達到最佳預測結果
+  2. 特徵分析時繁瑣但有其重要性
+  3. 此專案使用Ｒ語言撰寫是極大挑戰
 
 ## References
 * Code/implementation which you include/reference (__You should indicate in your presentation if you use code for others. Otherwise, cheating will result in 0 score for final project.__)
