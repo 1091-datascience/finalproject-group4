@@ -63,7 +63,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 * How do your perform evaluation? ie. Cross-validation, or extra separated data
   * Cross-validation
   * accuracy
-  * AUC
+  * Recall
 
 ### results
 
