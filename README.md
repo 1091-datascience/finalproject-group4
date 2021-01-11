@@ -92,8 +92,9 @@ Rscript final_project.R --fold 5 --train winequality-red.csv --report xgboost_pe
   * Create a matrix of scatterplots (pairs() equivalent) in ggplot2, https://stackoverflow.com/questions/3735286/create-a-matrix-of-scatterplots-pairs-equivalent-in-ggplot2
   * Gally R package: Extension to ggplot2 for correlation matrix and survival plots - R software and data visualization, http://www.sthda.com/english/wiki/ggally-r-package-extension-to-ggplot2-for-correlation-matrix-and-survival-plots-r-software-and-data-visualization
   * Shiny 入門, https://bookdown.org/tpemartin/shiny_intro/shiny-part-i.html#ui-
-  * Shiny - renderPlot , https://shiny.rstudio.com/reference/shiny/1.0.4/renderPlot.html
-  * Kaggle機器學習競賽神器XGBoost介紹 https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC5-2%E8%AC%9B-kaggle%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E7%AB%B6%E8%B3%BD%E7%A5%9E%E5%99%A8xgboost%E4%BB%8B%E7%B4%B9-1c8f55cffcc
+  * Shiny - renderPlot, https://shiny.rstudio.com/reference/shiny/1.0.4/renderPlot.html
+  * Kaggle機器學習競賽神器XGBoost介紹, https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC5-2%E8%AC%9B-kaggle%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E7%AB%B6%E8%B3%BD%E7%A5%9E%E5%99%A8xgboost%E4%BB%8B%E7%B4%B9-1c8f55cffcc
+  * 多類別模型深入分析-Amazon Machine Learning, https://docs.aws.amazon.com/zh_tw/machine-learning/latest/dg/multiclass-model-insights.html
 * Packages you use
   * shiny
   * DT
