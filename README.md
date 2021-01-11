@@ -84,6 +84,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   * https://www.kaggle.com/gpreda/red-wine-quality-simple-eda-and-prediction
   * Create a matrix of scatterplots (pairs() equivalent) in ggplot2, https://stackoverflow.com/questions/3735286/create-a-matrix-of-scatterplots-pairs-equivalent-in-ggplot2
   * Gally R package: Extension to ggplot2 for correlation matrix and survival plots - R software and data visualization, http://www.sthda.com/english/wiki/ggally-r-package-extension-to-ggplot2-for-correlation-matrix-and-survival-plots-r-software-and-data-visualization
+  * Shiny 入門, https://bookdown.org/tpemartin/shiny_intro/shiny-part-i.html#ui-
 * Packages you use
   * shiny
   * DT
